@@ -25,6 +25,8 @@ An example can be run using the included example file (this SATNOGS UOSAT2 obser
 py afsk1200decode.py -i satnogs_1505004_2020-01-07T12-42-50.wav -o UOSAT_Data
 ```
 
+To use other SATNOGS observations, you'll need to convert the file to a WAV file. This can be done using your preferred audio maipulation program but I use SoX -->> [http://sox.sourceforge.net/Main/HomePage](http://sox.sourceforge.net/Main/HomePage)
+
 A text file is output with the decoded data, an example data frame can be seen here:
 ```
 ---Record Separator---
